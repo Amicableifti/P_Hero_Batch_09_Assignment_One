@@ -102,7 +102,8 @@
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("/resources/Vectorrr.png");
     display: flex;
     justify-content: center;
-    padding: 68px 138px 68px 126px;
+    padding-top: 68px ;
+    padding-bottom: 68px;
     gap: 40px;
 }
 
@@ -110,6 +111,7 @@
 
     align-items: start;
     text-align: left;
+    margin-left: 126px;
 }
 
 .welcome-section h3 {
@@ -145,4 +147,7 @@
     margin-top: 48px;
     color:#FFF;
     cursor: pointer;
+}
+.welcome-section .image {
+    margin-right: 138px;
 }
