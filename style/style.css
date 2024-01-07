@@ -47,6 +47,19 @@ h1 {
     margin-top: 120px;
 }
 
+.input-button {
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: #F00;
+    margin-top: 48px;
+    color: #FFF;
+    cursor: pointer;
+    border: none;
+}
+
 /* CSS CODE FOR BANNER */
 
 .banner-section {
@@ -129,97 +142,6 @@ h1 {
     margin: 48px;
 }
 
-/* Coming Soon Css */
-
-
-.coming-soon-section {
-    display: flex;
-    vertical-align: middle;
-    
-}
-
-.coming-soon-section .column-one {
-
-    align-items: left;
-    text-align: start;
-    margin-right: 70px;
-}
-
-.coming-soon-section .column-one h2 {
-
-    color: #070211;
-    font-family: Merriweather;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: normal;
-    text-transform: capitalize;
-    margin-bottom: 22px;
-    
-}
-
-.coming-soon-section .column-one {
-    color: rgba(7, 2, 17, 0.60);
-    font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px;
-    flex: 1;
-   
-   
-    
-    /* 160% */
-}
-.coming-soon-section .column-one p {
-    color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px; /* 160% */
-}
-
-.coming-soon-section .column-two{
-    margin-right: 118px;
-    
-    
-}
-.coming-soon-section .column-two img{
-    border: 15px solid #f00;
-    border-radius: 100%;
-    padding: 49px;
-    width: 315px;
-    
-}
-.coming-soon-section .column-three {
-    text-align: left;
-    align-items: left; 
-    flex: 1;
-    
-}
-
-.coming-soon-section .column-three h4 {
-    color: #F00;
-    font-family: Inter;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-bottom: 22px;
-}
-.coming-soon-section .column-three p {
-    color: rgba(7, 2, 17, 0.60);
-    font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px; /* 160% */
-}
-
-.coming-soon-section .column-three img {
-   
-}
 
 /* Welcome Party Css */
 
@@ -284,6 +206,155 @@ line-height: 32px; /* 160% */
 
 .welcome-section .image {
     margin-right: 138px;
+}
+
+/* Info Section Css */
+
+.info-section {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    ;
+    padding-top: 100px;
+    padding-bottom: 110px;
+    border-radius: 20px;
+}
+
+.info-section h4 {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    /* 175% */
+    text-transform: capitalize;
+}
+.info-section span {
+    color : #F00;
+    font-family: Inter;
+    
+}
+
+/* Coming Soon Css */
+
+
+.coming-soon-section {
+    display: flex;
+    vertical-align: middle;
+
+}
+
+.coming-soon-section .column-one {
+
+    align-items: left;
+    text-align: start;
+    margin-right: 70px;
+}
+
+.coming-soon-section .column-one h2 {
+
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+
+}
+
+.coming-soon-section .column-one {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    flex: 1;
+
+
+
+    /* 160% */
+}
+
+.coming-soon-section .column-one p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
+.coming-soon-section .column-two {
+    margin-right: 118px;
+
+
+}
+
+.coming-soon-section .column-two img {
+    border: 15px solid #f00;
+    border-radius: 100%;
+    padding: 49px;
+    width: 315px;
+
+}
+
+.coming-soon-section .column-three {
+    text-align: left;
+    align-items: left;
+    flex: 1;
+
+}
+
+.coming-soon-section .column-three h4 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 22px;
+}
+
+.coming-soon-section .column-three p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
+.coming-soon-section .column-three img {}
+
+/* Sale CSS */
+.sale-section p {
+margin-left: 126px;
+margin-right: 126px;
+color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; /* 160% */
+}
+.sale-section h1 span{
+color:#F00;
+}
+
+.sale-section h5 {
+color: #070211;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 22px;
 }
 
 /* Portfolio Section Css */
@@ -458,7 +529,8 @@ footer {
     margin: 0px color: #fff;
 }
 
-.footer-body ul li , a{
+.footer-body ul li,
+a {
     display: flex;
     justify-self: start;
     align-items: center;
@@ -466,6 +538,7 @@ footer {
     text-decoration: none;
     color: #fff;
 }
+
 .footer-body ul li img {
-    margin-right: 16px ;
+    margin-right: 16px;
 }
