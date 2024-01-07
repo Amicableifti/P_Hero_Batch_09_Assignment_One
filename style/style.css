@@ -1,6 +1,45 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: 'Inter', sans-serif;
-    font-family: 'Merriweather', serif; */
+    font-family: 'Merriweather', serif;
+    */
+}
+
+/* CSS CODE FOR BANNER */
+
+.banner-section {
+    max-width: 1320px;
+    margin: 0 auto;
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+    padding-top: 177px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("/resources/Banner Image.png");
+    padding-bottom: 177px;
+
+}
+
+.banner-section h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.banner-section h1 {
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    
 }
