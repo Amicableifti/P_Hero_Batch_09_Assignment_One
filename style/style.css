@@ -13,6 +13,7 @@ h6 {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    margin-bottom: 22px;
 }
 
 h1 {
@@ -128,6 +129,94 @@ h1 {
     margin: 48px;
 }
 
+/* Coming Soon Css */
+
+
+.coming-soon-section {
+    display: flex;
+    vertical-align: middle;
+    
+}
+
+.coming-soon-section .column-one {
+
+    align-items: left;
+    text-align: start;
+    margin-right: 70px;
+}
+
+.coming-soon-section .column-one h2 {
+
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+    
+}
+
+.coming-soon-section .column-one {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+   
+   
+    
+    /* 160% */
+}
+.coming-soon-section .column-one p {
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+}
+
+.coming-soon-section .column-two{
+    margin-right: 118px;
+    
+}
+.coming-soon-section .column-two img{
+    border: 15px solid #f00;
+    border-radius: 100%;
+    padding: 49px;
+    
+}
+.coming-soon-section .column-three {
+    text-align: left;
+    align-items: left; 
+    
+}
+
+.coming-soon-section .column-three h4 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 22px;
+}
+.coming-soon-section .column-three p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+}
+
+.coming-soon-section .column-three img {
+   
+}
+
 /* Welcome Party Css */
 
 .welcome-section {
@@ -201,13 +290,20 @@ h1 {
     align-items: center;
     text-align: left;
     margin-top: 120px;
-    
+
 
 }
 
 .portfolio-section p {
     padding-right: 33%;
     margin-top: 22px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
 }
 
 .portfolio-section .showcase {
@@ -228,6 +324,7 @@ h1 {
     border-radius: 20px;
 }
 
+
 /* News Letter Start */
 
 .newsletter-section {
@@ -241,6 +338,10 @@ h1 {
 .newsletter-section .newsletter-div {
     margin-left: 212px;
     margin-right: 212px;
+}
+
+.newsletter-section .newsletter-div img {
+    margin-bottom: 40px;
 }
 
 .newsletter-section .newsletter-div input[ type=button] {
@@ -300,13 +401,13 @@ footer {
     margin: 48px 0px;
 }
 
-.footer .middle-part{
+.footer .middle-part {
     margin: 48px 0px;
-    align-items: center
-    text-align:center ;
-    display : flex;
+    align-items: center text-align:center;
+    display: flex;
     justify-content: center;
 }
+
 .footer-body .top-part address {
     color: #FFF;
     font-family: Inter;
@@ -329,9 +430,11 @@ footer {
     text-decoration: none;
     list-style-type: none;
 }
+
 .hrnew {
-    
-    border-top: .5px solid rgba(255, 255, 255, 0.15);;
+
+    border-top: .5px solid rgba(255, 255, 255, 0.15);
+    ;
 }
 
 .footer .middle-part img {
@@ -339,13 +442,25 @@ footer {
     height: 64px;
     margin-right: 24px;
 }
+
 .footer-body .bottom-part {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
 }
 
-.footer-body .bottom-part  p {
-    margin: 0px
+.footer-body .bottom-part p {
+    margin: 0px color: #fff;
+}
+
+.footer-body ul li , a{
+    display: flex;
+    justify-self: start;
+    align-items: center;
+    vertical-align: middle;
+    text-decoration: none;
     color: #fff;
+}
+.footer-body ul li img {
+    margin-right: 16px ;
 }
