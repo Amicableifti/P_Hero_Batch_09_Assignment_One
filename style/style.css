@@ -23,16 +23,27 @@ h1 {
     font-weight: 900;
     line-height: normal;
     text-transform: capitalize;
+    margin-bottom: 22px;
 }
 
-p {
+.p {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
+    margin-bottom: 48px;
     /* 160% */
+}
+
+.section-width {
+    max-width: 1320px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 120px;
 }
 
 /* CSS CODE FOR BANNER */
@@ -191,18 +202,21 @@ p {
     text-align: left;
     margin-top: 120px;
     
+
 }
+
 .portfolio-section p {
     padding-right: 33%;
     margin-top: 22px;
 }
+
 .portfolio-section .showcase {
     margin-top: 24px;
-    display:flex;
+    display: flex;
     gap: 12px;
     flex-wrap: wrap;
 }
-    
+
 .portfolio-section .showcase .portfilio-iomage {
     border-top: 2px solid #fff;
     border-radius: 20px;
@@ -212,4 +226,126 @@ p {
 .portfolio-section .showcase .portfilio-iomage:hover {
     border-top: 2px solid #dd0000;
     border-radius: 20px;
+}
+
+/* News Letter Start */
+
+.newsletter-section {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-bottom: 120px;
+}
+
+.newsletter-section .newsletter-div {
+    margin-left: 212px;
+    margin-right: 212px;
+}
+
+.newsletter-section .newsletter-div input[ type=button] {
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    padding: 24px 56px;
+    cursor: pointer;
+    color: #FFF;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 0px;
+}
+
+.newsletter-section .newsletter-div input[ type=text] {
+    border-radius: 50px 0px 0px 50px;
+    background: #fff;
+    padding: 24px 56px;
+    cursor: pointer;
+    color: #FFF;
+    border: none;
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: -3px;
+    text-align: left;
+
+}
+
+/* Footer CSS */
+footer {
+    background: #070211;
+    color: #fff;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.footer-body {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.footer .top-part {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin: 48px 0px;
+}
+
+.footer .middle-part{
+    margin: 48px 0px;
+    align-items: center
+    text-align:center ;
+    display : flex;
+    justify-content: center;
+}
+.footer-body .top-part address {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
+    width: 25%;
+
+}
+
+.footer-body .top-part ul li {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    text-decoration: none;
+    list-style-type: none;
+}
+.hrnew {
+    
+    border-top: .5px solid rgba(255, 255, 255, 0.15);;
+}
+
+.footer .middle-part img {
+    width: 64px;
+    height: 64px;
+    margin-right: 24px;
+}
+.footer-body .bottom-part {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.footer-body .bottom-part  p {
+    margin: 0px
+    color: #fff;
 }
