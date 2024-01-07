@@ -322,6 +322,7 @@ line-height: 32px; /* 160% */
 .portfolio-section .showcase .portfilio-iomage:hover {
     border-top: 2px solid #dd0000;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 
