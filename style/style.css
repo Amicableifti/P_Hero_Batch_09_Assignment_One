@@ -165,6 +165,7 @@ h1 {
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
+    flex: 1;
    
    
     
@@ -182,16 +183,19 @@ line-height: 32px; /* 160% */
 .coming-soon-section .column-two{
     margin-right: 118px;
     
+    
 }
 .coming-soon-section .column-two img{
     border: 15px solid #f00;
     border-radius: 100%;
     padding: 49px;
+    width: 315px;
     
 }
 .coming-soon-section .column-three {
     text-align: left;
     align-items: left; 
+    flex: 1;
     
 }
 
