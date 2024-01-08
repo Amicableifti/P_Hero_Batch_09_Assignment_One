@@ -72,7 +72,7 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 16px;
-    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("/resources/BannerImage.png");
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../resources/BannerImage.png");
     padding-bottom: 177px;
 
 }
@@ -154,7 +154,7 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 16px;
-    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("/resources/Vectorrr.png");
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../resources/Vectorrr.png");
     display: flex;
     justify-content: center;
     padding-top: 68px;
@@ -361,7 +361,7 @@ h1 {
 }
 
 .bottom-part {
-    background-image: url(/resources/Rectangle\ 2.png);
+    background-image: url(../resources/Rectangle\ 2.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom;
