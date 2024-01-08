@@ -360,24 +360,23 @@ h1 {
     margin-bottom: 22px;
 }
 
-.bottom-part {
+.sale-section .bottom-part {
     background-image: url(../resources/Rectangle\ 2.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom;
     display: flex;
-    background-color: ;
     margin-top: 64px;
     background-blend-mode: multiply;
     mix-blend-mode: multiply;
 }
 
-.bottom-part .img-one {
+.sale-section .bottom-part .img-one {
     max-width: 796px;
     
 }
 
-.bottom-part .img-two {
+.sale-section .bottom-part .img-two {
     max-width: 200px;
     height: 200px;
     margin-right: -105px;
@@ -385,7 +384,7 @@ h1 {
     z-index: 100;
 }
 
-.bottom-part .img-three {
+.sale-section .bottom-part .img-three {
     max-width: 430px;
     height: 433px;
 }
@@ -559,7 +558,7 @@ footer {
 }
 
 .footer-body .bottom-part p {
-    margin: 0px color: #fff;
+    margin: 0px;
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
