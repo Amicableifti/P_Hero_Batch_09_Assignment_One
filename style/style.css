@@ -229,10 +229,11 @@ h1 {
     /* 175% */
     text-transform: capitalize;
 }
+
 .info-section span {
-    color : #F00;
+    color: #F00;
     font-family: Inter;
-    
+
 }
 
 /* Coming Soon Css */
@@ -333,28 +334,57 @@ h1 {
 
 /* Sale CSS */
 .sale-section p {
-margin-left: 126px;
-margin-right: 126px;
-color: rgba(7, 2, 17, 0.60);
-text-align: center;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: 32px; /* 160% */
+    margin-left: 266px;
+    margin-right: 266px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    /* 160% */
 }
-.sale-section h1 span{
-color:#F00;
+
+.sale-section h1 span {
+    color: #F00;
 }
 
 .sale-section h5 {
-color: #070211;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-margin-bottom: 22px;
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 22px;
+}
+
+.bottom-part {
+    background-image: url(/resources/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    display: flex;
+    background-color: ;
+    margin-top: 64px;
+}
+
+.bottom-part .img-one {
+    max-width: 796px;
+}
+
+.bottom-part .img-two {
+    max-width: 200px;
+    height: 200px;
+    margin-right: -105px;
+    margin-top: 175px;
+    z-index: 100;
+}
+
+.bottom-part .img-three {
+    max-width: 430px;
+    height: 433px;
 }
 
 /* Portfolio Section Css */
