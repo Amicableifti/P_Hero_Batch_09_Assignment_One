@@ -72,7 +72,7 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 16px;
-    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("/resources/Banner Image.png");
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("/resources/BannerImage.png");
     padding-bottom: 177px;
 
 }
@@ -368,10 +368,13 @@ h1 {
     display: flex;
     background-color: ;
     margin-top: 64px;
+    background-blend-mode: multiply;
+    mix-blend-mode: multiply;
 }
 
 .bottom-part .img-one {
     max-width: 796px;
+    
 }
 
 .bottom-part .img-two {
